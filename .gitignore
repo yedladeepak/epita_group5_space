@@ -1,0 +1,22 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Local evidence files
+*.txt
