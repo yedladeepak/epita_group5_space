@@ -9,6 +9,8 @@ dependencies = [
     "requests>=2.34.2",
     "rich>=15.0.0",
 ]
+[project.scripts]
+epita-group5-cli = "epita_group5_space.cli:main"
 
 
 [build-system]

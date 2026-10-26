@@ -3,7 +3,7 @@ import requests
 
 from epita_group5_space.config import config
 
-APOD_URL = "https://api.nasa.gov/planetary/apod"
+APOD_URL = "https://science.nasa.gov/wp-json/wp/v2/apod-basic"
 
 
 def get_apod(date=None):
